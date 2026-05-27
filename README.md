@@ -16,6 +16,7 @@ Fully featured, barebones Rojo project that includes Jest, custom commands, and 
 - **Luau Language Server:** https://marketplace.visualstudio.com/items?itemName=JohnnyMorganz.luau-lsp
 - **Rojo (also get the roblox-studio plugin!):** https://marketplace.visualstudio.com/items?itemName=evaera.vscode-rojo
 ## Useful Links
-- rojo docs:  https://jsdotlua.github.io/jest-lua/
+- rojo docs: https://rojo.space/docs/v7/
+- jest docs: https://jsdotlua.github.io/jest-lua/
 - wally docs: https://github.com/UpliftGames/wally
-- custom commands reference: https://github.com/jsdotlua/jest-lua/pull/17/changes#diff-2a758ebe849cc0dbb4ecdf333f95630b55aff0d82ffc4a32241118e649d24b9c
+- custom commands: https://github.com/jsdotlua/jest-lua/pull/17/changes#diff-2a758ebe849cc0dbb4ecdf333f95630b55aff0d82ffc4a32241118e649d24b9c
