@@ -15,5 +15,8 @@ sourcemap.json
 
 
 # Wally
-/DevPackages
-/Packages
+/DevPackages/**
+!/DevPackages/.gitkeep
+/Packages/**
+!/Packages/.gitkeep
+wally.lock
