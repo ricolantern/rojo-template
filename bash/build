@@ -1,9 +1,14 @@
 #!/bin/bash
 
 declare cmd=$1
+declare pluginName="test" # quick and dirty.
 
 function __buildFile() {
     rojo build "config/${1}.project.json" --output "${1}.rbxl"
+}
+
+function __buildPlugin() {
+    rojo build "config/dev.project.json" --plugin "${pluginName}.rbxmx"
 }
 
 function dev() {
@@ -16,6 +21,10 @@ function test() {
 
 function prod() {
     __buildFile "prod"
+}
+
+function plugin() {
+    __buildPlugin
 }
 
 # must be identical to luau-lsp.sourcemap.generatorCommand
