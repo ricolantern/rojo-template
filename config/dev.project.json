@@ -1,0 +1,34 @@
+{
+  "name": "dev",
+  "tree": {
+    "$className": "DataModel",
+
+    "Workspace": {
+      "$path": "services/Workspace.project.json"
+    },
+    "Players": { "$path": "services/Players.project.json" },
+    "SoundService": { "$path": "services/SoundService.project.json" },
+    "ReplicatedStorage": {
+      "$path": "services/ReplicatedStorage.project.json",
+
+      "DevPackages": { "$path": "../DevPackages" },
+      "Scripts": { "$path": "../scripts" },
+      "Tests": { "$path": "components/SharedTests.project.json" }
+    },
+    "ServerScriptService": {
+      "$path": "services/ServerScriptService.project.json",
+      
+      "Tests": { "$path": "components/ServerTests.project.json" }
+    },
+    "StarterPlayer": {
+      "$path": "services/StarterPlayer.project.json",
+
+      "StarterPlayerScripts": {
+        "$path": "services/StarterPlayerScripts.project.json",
+
+        "Tests": { "$path": "components/ClientTests.project.json" }
+      }
+    },
+    "TextChatService": { "$path": "services/TextChatService.project.json" }
+  }
+}

@@ -1,0 +1,6 @@
+#!/bin/bash
+
+declare cmd=$1
+
+shift
+eval "bash/${cmd}" $@

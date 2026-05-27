@@ -1,0 +1,20 @@
+#!/bin/bash
+
+declare cmd=$1
+declare type=$2
+
+function __serve() {
+    rojo serve "config/${type}.project.json"
+}
+
+function new() {
+    bash/build $type \
+        && start "${type}.rbxl" \
+        && __serve
+}
+
+function current() {
+    __serve
+}
+
+eval $cmd

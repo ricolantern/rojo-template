@@ -1,0 +1,6 @@
+#!/bin/bash
+
+declare var=$1
+
+rojo build "experiments/${var}/exp.project.json" --output "exp.rbxl" \
+    && start exp.rbxl

@@ -1,0 +1,24 @@
+{
+  "name": "exp",
+  "tree": {
+    "$className": "DataModel",
+
+    "Workspace": {
+      "Container": {
+        "$className": "Configuration"
+      }
+    },
+
+    "ServerScriptService": {
+      "Server": {
+        "$path": "main.server.luau"
+      }
+    },
+
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "Client": { "$path": "main.client.luau" }
+      }
+    }
+  }
+}

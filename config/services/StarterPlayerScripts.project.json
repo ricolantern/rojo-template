@@ -1,0 +1,8 @@
+{
+  "name": "StarterPlayerScripts",
+  "tree": {
+    "$className": "StarterPlayerScripts",
+
+    "Source": { "$path": "../../src/client" }
+  }
+}

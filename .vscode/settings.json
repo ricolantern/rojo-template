@@ -1,0 +1,15 @@
+{
+    "luau-lsp.fflags.enableNewSolver": true,
+    "luau-lsp.server.baseLuaurc": ".luaurc",
+    "luau-lsp.ignoreGlobs": [
+        "**/_Index/**",
+        "Packages/**",
+        "DevPackages/**"
+    ],
+    "luau-lsp.fflags.override": {
+        "FFlagEnableLoadModule": "true"
+    },
+    "luau-lsp.sourcemap.generatorCommand": "rojo sourcemap config/dev.project.json -o sourcemap.json --include-non-scripts --absolute",
+    "luau-lsp.sourcemap.rojoProjectFile": "config/dev.project.json",
+    "luau-lsp.sourcemap.useVSCodeWatcher": true
+}

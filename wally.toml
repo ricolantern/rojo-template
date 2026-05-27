@@ -1,0 +1,12 @@
+[package]
+name = "rico/rojo-template"
+version = "0.1.0"
+registry = "https://github.com/UpliftGames/wally-index"
+private = true
+realm = "server"
+
+[dependencies]
+
+[dev-dependencies]
+Jest = "jsdotlua/jest@3.10.*"
+JestGlobals = "jsdotlua/jest-globals@3.10.*"

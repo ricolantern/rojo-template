@@ -1,0 +1,9 @@
+{
+  "name": "SoundService",
+  "tree": {
+    "$className": "SoundService",
+    "$properties": {
+        "RespectFilteringEnabled": true
+      }
+  }
+}

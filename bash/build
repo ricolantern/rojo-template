@@ -1,0 +1,26 @@
+#!/bin/bash
+
+declare cmd=$1
+
+function __buildFile() {
+    rojo build "config/${1}.project.json" --output "${1}.rbxl"
+}
+
+function dev() {
+    __buildFile "dev"
+}
+
+function test() {
+    __buildFile "test"
+}
+
+function prod() {
+    __buildFile "prod"
+}
+
+# must be identical to luau-lsp.sourcemap.generatorCommand
+function sourcemap() {
+    rojo sourcemap config/dev.project.json -o sourcemap.json --include-non-scripts --absolute
+}
+
+eval $cmd

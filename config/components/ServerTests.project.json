@@ -1,0 +1,14 @@
+{
+  "name": "Tests",
+  "tree": {
+    "$className": "Folder",
+
+    "Integration": {
+        "$path": "../../tests/integration/server"
+    },
+
+    "Unit": {
+        "$path": "../../tests/unit/server"
+    }
+  }
+}

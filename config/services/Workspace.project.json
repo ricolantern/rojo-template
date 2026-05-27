@@ -1,0 +1,23 @@
+{
+  "name": "Workspace",
+  "tree": {
+    "$className": "Workspace",
+    "$properties": {
+      "FilteringEnabled": true,
+      "UseNewLuauTypeSolver": "Enabled",
+      "LuauTypeCheckMode": "Strict",
+      "FallenPartsDestroyHeight": -50000,
+      "RenderingCacheOptimizations": "Enabled",
+      "TouchesUseCollisionGroups": true,
+
+      "NextGenerationReplication": { "Enum": 2 },
+      "PlayerScriptsUseInputActionSystem": { "Enum": 2 },
+      "SignalBehavior": "Deferred",
+      "UseFixedSimulation": { "Enum": 2 },
+      "StreamingEnabled": true,
+      "StreamingIntegrityMode": { "Enum": 3 },
+      "StreamOutBehavior": "Opportunistic",
+      "AuthorityMode": "Server"
+    }
+  }
+}
