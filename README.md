@@ -1,6 +1,7 @@
 
 # Rojo Template
 Fully featured, barebones Rojo project that includes Jest, custom commands, and a component-based project config.
+
 Plugin version here -> https://github.com/ricolantern/rojo-plugin-template
 ## Folder Index
 - **.vscode:** *For settings every maintainer should have when working with VSCode.*
